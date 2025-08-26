@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Guardians | Preventing Animal Extinction</title>
+    <link rel="stylesheet"  href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="https://placehold.co/60x60" alt="Wildlife Guardians logo featuring a stylized paw print with green and gold colors" class="h-12 mr-4">
+                    <span class="text-2xl font-bold" style="color: var(--primary);">Wildlife Guardians</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-800 hover:text-green-700 font-medium">Home</a>
+                    <a href="#mission" class="text-gray-800 hover:text-green-700 font-medium">Our Mission</a>
+                    <a href="#species" class="text-gray-800 hover:text-green-700 font-medium">At-Risk Species</a>
+                    <a href="#work" class="text-gray-800 hover:text-green-700 font-medium">Our Work</a>
+                    <a href="#donate" class="text-gray-800 hover:text-green-700 font-medium">Donate</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient min-h-screen flex items-center relative overflow-hidden">
+        <div class="container mx-auto px-6 py-20 z-10 text-center text-white">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Protecting Earth's Precious Wildlife</h1>
+            <p class="text-xl md:text-2xl max-w-3xl mx-auto mb-10">Every 20 minutes, a species disappears forever. Join our fight to prevent extinction and preserve biodiversity for future generations.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#donate" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-8 rounded-full text-lg transition duration-300">Donate Now</a>
+                <a href="#mission" class="bg-transparent border-2 border-white hover:bg-white hover:text-green-800 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300">Learn More</a>
+            </div>
+        </div>
+        <div class="absolute bottom-10 left-0 right-0 flex justify-center">
+            <a href="#mission" class="animate-bounce">
+                <svg class="h-10 w-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <div class="bg-white p-8 rounded-lg shadow-md feature-box transition duration-300">
+                    <span class="text-5xl font-bold text-green-700">1,000+</span>
+                    <p class="mt-4 text-gray-600">Species Currently at Critical Risk</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md feature-box transition duration-300">
+                    <span class="text-5xl font-bold text-green-700">75+</span>
+                    <p class="mt-4 text-gray-600">Countries Where We Operate</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md feature-box transition duration-300">
+                    <span class="text-5xl font-bold text-green-700">25</span>
+                    <p class="mt-4 text-gray-600">Years of Conservation Experience</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md feature-box transition duration-300">
+                    <span class="text-5xl font-bold text-green-700">500K+</span>
+                    <p class="mt-4 text-gray-600">Acres of Habitat Protected</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-16">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">Our Urgent Mission</h2>
+                    <p class="text-lg text-gray-600 mb-6">Wildlife Guardians is dedicated to halting the accelerating rate of animal extinction through science-based conservation strategies, habitat protection, and community empowerment.</p>
+                    <p class="text-lg text-gray-600 mb-8">We believe every species plays a vital role in Earth's delicate ecosystems. Their loss diminishes us all.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-700">Direct protection of endangered species habitats</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-700">Scientific research to inform conservation strategies</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-700">Policy advocacy for stronger wildlife protections</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-700">Education programs to build conservation awareness</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="relative">
+                        <img src="https://placehold.co/800x600" alt="Group of conservationists observing elephants in African savanna during golden hour" class="rounded-lg shadow-xl w-full">
+                        <div class="absolute -bottom-6 -right-6 bg-yellow-500 text-white p-6 rounded-lg shadow-lg">
+                            <span class="block text-3xl font-bold">Since 1998</span>
+                            <span class="block">Saving Wildlife</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Species at Risk Section -->
+    <section id="species" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Species We Protect</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">These magnificent creatures are counting on us. Each one plays a critical role in their ecosystem.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Species Card 1 -->
+                <div class="relative rounded-xl overflow-hidden shadow-lg species-card h-80">
+                    <img src="https://placehold.co/600x800" alt="Amur leopard resting on snowy tree branch with intense golden eyes visible" class="w-full h-full object-cover">
+                    <div class="species-overlay absolute inset-0 flex flex-col justify-end p-6 text-white">
+                        <h3 class="text-2xl font-bold mb-2">Amur Leopard</h3>
+                        <p class="mb-4">Fewer than 100 remain in the wild</p>
+                        <a href="#" class="text-yellow-400 font-medium">Learn More →</a>
+                    </div>
+                </div>
+                
+                <!-- Species Card 2 -->
+                <div class="relative rounded-xl overflow-hidden shadow-lg species-card h-80">
+                    <img src="https://placehold.co/600x800" alt="Sumatran orangutan mother with baby clinging to her chest in lush rainforest" class="w-full h-full object-cover">
+                    <div class="species-overlay absolute inset-0 flex flex-col justify-end p-6 text-white">
+                        <h3 class="text-2xl font-bold mb-2">Sumatran Orangutan</h3>
+                        <p class="mb-4">80% population decline in last 75 years</p>
+                        <a href="#" class="text-yellow-400 font-medium">Learn More →</a>
+                    </div>
+                </div>
+                
+                <!-- Species Card 3 -->
+                <div class="relative rounded-xl overflow-hidden shadow-lg species-card h-80">
+                    <img src="https://placehold.co/600x800" alt="Javan rhino standing in tropical forest with distinctive single horn" class="w-full h-full object-cover">
+                    <div class="species-overlay absolute inset-0 flex flex-col justify-end p-6 text-white">
+                        <h3 class="text-2xl font-bold mb-2">Javan Rhino</h3>
+                        <p class="mb-4">Only about 70 individuals left</p>
+                        <a href="#" class="text-yellow-400 font-medium">Learn More →</a>
+                    </div>
+                </div>
+                
+                <!-- Species Card 4 -->
+                <div class="relative rounded-xl overflow-hidden shadow-lg species-card h-80">
+                    <img src="https://placehold.co/600x800" alt="Hawksbill sea turtle swimming gracefully over colorful coral reef" class="w-full h-full object-cover">
+                    <div class="species-overlay absolute inset-0 flex flex-col justify-end p-6 text-white">
+                        <h3 class="text-2xl font-bold mb-2">Hawksbill Turtle</h3>
+                        <p class="mb-4">90% population loss in last century</p>
+                        <a href="#" class="text-yellow-400 font-medium">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="inline-block border-2 border-green-700 text-green-700 font-bold py-3 px-8 rounded-full hover:bg-green-700 hover:text-white transition duration-300">See All Species</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Work Section -->
+    <section id="work" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">How We Make a Difference</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Our comprehensive approach addresses the root causes of extinction from multiple angles.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Approach 1 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="h-8 w-8 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Habitat Protection</h3>
+                    <p class="text-gray-600 mb-4">We establish and manage protected areas, preventing deforestation and habitat destruction that threaten vulnerable species.</p>
+                    <a href="#" class="text-green-700 font-medium flex items-center">
+                        Learn more
+                        <svg class="h-4 w-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+                
+                <!-- Approach 2 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="h-8 w-8 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Anti-Poaching Initiatives</h3>
+                    <p class="text-gray-600 mb-4">We train and equip rangers, implement surveillance technology, and work with communities to reduce demand for wildlife products.</p>
+                    <a href="#" class="text-green-700 font-medium flex items-center">
+                        Learn more
+                        <svg class="h-4 w-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+                
+                <!-- Approach 3 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="h-8 w-8 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Breeding Programs</h3>
+                    <p class="text-gray-600 mb-4">Our conservation breeding programs help rebuild populations of critically endangered species for eventual rewilding.</p>
+                    <a href="#" class="text-green-700 font-medium flex items-center">
+                        Learn more
+                        <svg class="h-4 w-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+                
+                <!-- Approach 4 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="h-8 w-8 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Policy Advocacy</h3>
+                    <p class="text-gray-600 mb-4">We work with governments to strengthen wildlife protection laws and ensure enforcement mechanisms are effective.</p>
+                    <a href="#" class="text-green-700 font-medium flex items-center">
+                        Learn more
+                        <svg class="h-4 w-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+                
+                <!-- Approach 5 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="h-8 w-8 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Community Education</h3>
+                    <p class="text-gray-600 mb-4">We engage local communities in conservation through education programs that create long-term stewardship.</p>
+                    <a href="#" class="text-green-700 font-medium flex items-center">
+                        Learn more
+                        <svg class="h-4 w-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+                
+                <!-- Approach 6 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="h-8 w-8 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Technology Solutions</h3>
+                    <p class="text-gray-600 mb-4">We deploy cutting-edge technology like AI-powered monitoring, drones, and camera traps to protect wildlife more effectively.</p>
+                    <a href="#" class="text-green-700 font-medium flex items-center">
+                        Learn more
+                        <svg class="h-4 w-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class="py-20 bg-green-800 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Our Conservation Wins</h2>
+                <p class="text-xl max-w-3xl mx-auto">Through persistent effort and collaboration, we've helped bring species back from the brink.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Story 1 -->
+                <div class="bg-green-900 bg-opacity-50 p-8 rounded-lg">
+                    <div class="text-yellow-400 text-5xl font-bold mb-4">230%</div>
+                    <h3 class="text-2xl font-bold mb-4">Snow Leopard Recovery</h3>
+                    <p class="mb-6">Our 15-year protection program in Mongolia has more than doubled the local population of these elusive mountain cats.</p>
+                    <a href="#" class="text-yellow-400 font-medium flex items-center">
+                        Read the full story
+                        <svg class="h-4 w-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+                
+                <!-- Story 2 -->
+                <div class="bg-green-900 bg-opacity-50 p-8 rounded-lg">
+                    <div class="text-yellow-400 text-5xl font-bold mb-4">50K+</div>
+                    <h3 class="text-2xl font-bold mb-4">Sea Turtle Nests Protected</h3>
+                    <p class="mb-6">Our beach protection programs across Central America now safeguard over 50,000 sea turtle nests annually from poachers.</p>
+                    <a href="#" class="text-yellow-400 font-medium flex items-center">
+                        Read the full story
+                        <svg class="h-4 w-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+                
+                <!-- Story 3 -->
+                <div class="bg-green-900 bg-opacity-50 p-8 rounded-lg">
+                    <div class="text-yellow-400 text-5xl font-bold mb-4">350</div>
+                    <h3 class="text-2xl font-bold mb-4">Rhinos Rewilded</h3>
+                    <p class="mb-6">Our breeding and rewilding program has successfully reintroduced 350 black rhinos into protected habitats across Africa.</p>
+                    <a href="#" class="text-yellow-400 font-medium flex items-center">
+                        Read the full story
+                        <svg class="h-4 w-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Section -->
+    <section id="donate" class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="bg-gradient-to-r from-green-700 to-green-900 rounded-2xl shadow-2xl overflow-hidden">
+                <div class="flex flex-col lg:flex-row">
+                    <div class="lg:w-1/2 p-12 text-white">
+                        <h2 class="text-4xl font-bold mb-6">Your Support Saves Species</h2>
+                        <p class="text-lg mb-8">Every donation helps fund critical conservation programs that protect endangered animals and their habitats.</p>
+                        
+                        <div class="mb-8">
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-800 font-semibold">Goal: $100,000</span>
+                                <span class="text-gray-800 font-semibold">Raised: $65,000</span>
+                            </div>
+                            <!-- Donation progress bar -->
+                            <div class="w-full bg-gray-300 rounded-full h-4 overflow-hidden mb-4">
+                                <div class="bg-yellow-500 h-4 rounded-full" style="width: 65%;"></div>
+                            </div>
+                            <a href="#" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-8 rounded-full text-lg transition duration-300">Contribute Now</a>
+                        </div>
+
+                        <!-- Right image -->
+                        <div class="lg:w-1/2">
+                            <img src="https://placehold.co/800x600" alt="Donors planting trees and working with local communities" class="w-full h-full object-cover rounded-lg shadow-md">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer Section -->
+            <footer class="bg-gray-900 text-white py-10 mt-20">
+                <div class="container mx-auto px-6 text-center space-y-4">
+                    <h3 class="text-2xl font-bold">Wildlife Guardians</h3>
+                    <p class="text-gray-400">Together, we protect our planet’s most vulnerable species.</p>
+                    <div class="space-x-4">
+                        <a href="#home" class="hover:text-yellow-400">Home</a>
+                        <a href="#mission" class="hover:text-yellow-400">Mission</a>
+                        <a href="#species" class="hover:text-yellow-400">Species</a>
+                        <a href="#work" class="hover:text-yellow-400">Our Work</a>
+                        <a href="#donate" class="hover:text-yellow-400">Donate</a>
+                    </div>
+                    <p class="text-gray-500 text-sm">&copy; 2025 Wildlife Guardians. All rights reserved.</p>
+                </div>
+            </footer>
+
+        </body>
+        </html>
