@@ -9,7 +9,7 @@
 </head>
 <body class="bg-gray-50">
     <!-- Navigation -->
-    <nav class="bg-white shadow-md sticky top-0 z-50">
+    <nav id="navbar" class="fixed top-0 z-50 w-full">
         <div class="container mx-auto px-6 py-4">
             <div class="flex justify-between items-center">
                 <div class="flex items-center">
@@ -388,6 +388,24 @@
                     <p class="text-gray-500 text-sm">&copy; 2025 Wildlife Guardians. All rights reserved.</p>
                 </div>
             </footer>
-
+<script>
+  // Wait for the document to load
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    // Get the navbar element
+    const navbar = document.getElementById('navbar');
+    
+    // Function to run on scroll
+    window.onscroll = function() {
+      // We want to add the classes when scrolled more than 50px
+      // You can change this 50 value
+      if (window.scrollY > 50) {
+        navbar.classList.add('bg-black', 'shadow-md', 'bg-opacity-40', 'backdrop-blur-md');
+      } else {
+        navbar.classList.remove('bg-black', 'shadow-md', 'bg-opacity-40', 'backdrop-blur-md');
+      }
+    };
+  });
+</script>
         </body>
         </html>
