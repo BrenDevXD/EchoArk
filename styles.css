@@ -27,7 +27,8 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: var(--primary);
+  /* Converted var(--primary) to rgba with 0.21 opacity */
+  background-color: rgba(255, 255, 255, 0.7); 
   padding: 15px 0;
   z-index: 1000;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -91,7 +92,7 @@ body {
 /* Sections */
 section {
   min-height: 100vh;
-  padding: 100px 10% 80px;
+  padding: 20px 10% 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,9 +101,31 @@ section {
 
 /* Home Section */
 #home {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
-    url('https://placehold.co/1920x1080?text=Wildlife+Hero') center/cover no-repeat;
+  /* This is the container for both backgrounds */
+  position: relative;
   text-align: center;
+  
+  /* This is the BOTTOM layer (the main image) */
+  background: url('Images/UpperBackground.png') center/cover no-repeat;
+  
+  /* Ensures content (like text) appears above the overlay */
+  isolation: isolate; 
+}
+
+#home::before {
+  /* This pseudo-element IS the overlay */
+  content: '';
+  position: absolute;
+  inset: 0; /* A modern shortcut for top:0; right:0; bottom:0; left:0; */
+  
+  /* This is the TOP layer (the filter image) */
+  background: url('Images/Filter.png') center/cover no-repeat;
+  
+  /* Apply 79% transparency (which is 21% opacity) */
+  opacity: 0.9;
+  
+  /* Puts the overlay behind the text but in front of the #home background */
+  z-index: -1; 
 }
 
 .logo {
