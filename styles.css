@@ -34,6 +34,10 @@ body {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+#navbar {
+  /* This makes the background color and shadow fade in over 0.3 seconds */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
 .nav-links {
   display: flex;
   justify-content: center;
@@ -106,8 +110,8 @@ section {
   text-align: center;
   
   /* This is the BOTTOM layer (the main image) */
-  background: url('Images/UpperBackground.png') center/cover no-repeat;
-  
+  background: url('Images/UpperBackground.png') center top/cover no-repeat;
+  background-position: center top;
   /* Ensures content (like text) appears above the overlay */
   isolation: isolate; 
 }
